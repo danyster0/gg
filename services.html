@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GoodGame</title>
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="logo">
+        <div class="mark">GG</div><span>GoodGame</span>
+      </a>
+
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="services.html" class="active">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+    </div>
+  </nav>
+
+  <main class="container" style="padding-top:110px">
+    <section data-aos="fade-up">
+      <h1 style="font-family:'Orbitron',sans-serif;color:var(--red)">Our Services</h1>
+      <p style="color:var(--muted);max-width:760px">We deliver end-to-end gaming services — from coaching and stream design to tournament operations.</p>
+
+      <div class="services-grid" style="margin-top:28px">
+        <div class="service-card" data-aos="fade-right">
+          <h3>Ranked Coaching</h3>
+          <p>Personalized plans, VOD review, live drills & performance tracking.</p>
+        </div>
+        <div class="service-card" data-aos="fade-up" data-aos-delay="80">
+          <h3>Pro Stream Package</h3>
+          <p>Overlays, stingers, alerts, transitions and Twitch optimization guide.</p>
+        </div>
+        <div class="service-card" data-aos="fade-left" data-aos-delay="160">
+          <h3>Event Management</h3>
+          <p>Full tournament management with production, brackets and prize logistics.</p>
+        </div>
+      </div>
+
+      <!-- big table with features -->
+      <div class="table-wrap" style="margin-top:30px" data-aos="fade-up">
+        <table class="services-table">
+          <thead>
+            <tr><th>Package</th><th>Includes</th><th>Duration</th><th>Price</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Starter</td><td>1 coaching session + stream checklist</td><td>1 week</td><td><span class="price-badge">$40</span></td></tr>
+            <tr><td>Pro</td><td>5 coaching sessions + overlay design</td><td>1 month</td><td><span class="price-badge">$200</span></td></tr>
+            <tr><td>Enterprise</td><td>Event hosting + production team</td><td>Custom</td><td><span class="price-badge">$1200</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <!-- FAQs -->
+      <div style="margin-top:36px" data-aos="fade-up">
+        <h3 style="font-family:'Orbitron',sans-serif;color:#fff">FAQs</h3>
+        <div style="margin-top:12px;color:var(--muted)">
+          <p><strong>Q:</strong> How do I book a coach?<br><strong>A:</strong> Use Contact page — include rank + goals.</p>
+          <p><strong>Q:</strong> Do you provide refunds?<br><strong>A:</strong> Partial refunds based on service terms.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <footer style="margin-top:48px">© <span id="year2"></span> Danyster0 — GoodGame — Services</footer>
+  </main>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({duration:700, once:true});
+    document.getElementById('year2').innerText = new Date().getFullYear();
+  </script>
+  <script src="js/scritp.js"></script>
+</body>
+</html>

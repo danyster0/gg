@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GoodGame</title>
+
+    <!-- AOS for scroll animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+<nav>
+    <div class="nav-inner">
+    <a href="index.html" class="logo">
+        <div class="mark">GG</div>
+        <span>GoodGame</span>
+    </a>
+
+    <div class="navbar">
+        <a href="index.html" class="active">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    </div>
+</nav>
+
+    <!-- HERO -->
+<section class="hero">
+    <!-- background video (muted autoplay loop) -->
+    <div class="video-bg" aria-hidden="true">
+    <video autoplay muted loop playsinline style="width:100%;height:100%;object-fit:cover;">
+        <source src="https://cdn.coverr.co/videos/coverr-a-gamer-in-red-armor-1570" type="video/mp4">
+    </video>
+    </div>
+    <div class="overlay"></div>
+    <div class="spark"></div>
+
+    <div class="hero-inner container">
+    <div class="left" data-aos="fade-right">
+        <span class="kicker">PRO GAMING HUB</span>
+        <h1>Dominate the Game — RedCore Arena</h1>
+        <p>News • Streams • Coaching • Tournaments — We bring pro-level gaming to your screen. Join clans, watch highlights, and upgrade your setup with our guided services.</p>
+    <div class="actions">
+        <a href="services.html" class="btn btn-primary">Explore Services</a>
+        <a href="#gallery" class="btn btn-ghost">Watch Clips</a>
+    </div>
+
+        <!-- quick stats -->
+    <div style="display:flex;gap:14px;margin-top:22px" data-aos="fade-up" data-aos-delay="120">
+            <div style="padding:14px 18px;background:rgba(255,255,255,0.02);border-radius:10px">
+            <div style="font-weight:800;font-family:'Orbitron',sans-serif;color:#fff">24/7</div>
+            <div style="font-size:13px;color:var(--muted)">Live Events</div>
+            </div>
+        <div style="padding:14px 18px;background:rgba(255,255,255,0.02);border-radius:10px">
+            <div style="font-weight:800;font-family:'Orbitron',sans-serif;color:#fff">+3k</div>
+            <div style="font-size:13px;color:var(--muted)">Active Players</div>
+        </div>
+        </div>
+    </div>
+
+    <div class="right" data-aos="zoom-in">
+        <div class="card-preview" title="Latest highlight">
+        <img src="img/3Y3 533 U 👁️.jpeg" alt="game preview">
+        </div>
+    </div>
+    </div>
+
+</section>
+
+    <!-- CONTENT -->
+<main class="container" style="padding-top:30px">
+
+    <!-- Gallery / Videos -->
+<section id="gallery" data-aos="fade-up">
+    <h2 style="font-family:'Orbitron',sans-serif;color:var(--red);margin-bottom:8px">Highlights & Clips</h2>
+    <p style="color:var(--muted);max-width:760px;margin-bottom:18px">Latest gameplay clips, montages and trailers from our community and pro team.</p>
+
+    <div class="gallery">
+        <div class="item" data-aos="fade-up" data-aos-delay="40">
+            <img src="img/minecraft.png" alt="screenshot">
+        </div>
+        <div class="item" data-aos="fade-up" data-aos-delay="80">
+            <img src="img/pexels-mayday.jpg" alt="screenshot2">
+        </div>
+        <div class="item" data-aos="fade-up" data-aos-delay="120">
+            <img src="img/video-game.jpg" alt="screenshot3">
+        </div>
+    </div>
+
+    <div style="display:flex;gap:16px;margin-top:20px;flex-wrap:wrap">
+        <div style="flex:1;min-width:300px" data-aos="fade-left">
+        <video controls style="width:100%;border-radius:12px;border:1px solid rgba(255,31,45,0.06)">
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
+        </div>
+        <div style="flex:1;min-width:300px;padding:6px 0" data-aos="fade-right">
+            <h3 style="font-family:'Orbitron',sans-serif;color:#fff;margin-bottom:8px">Trailer: RedCore Cup</h3>
+            <p style="color:var(--muted)">Watch the trailer for our upcoming tournament. Intense matches, cash prizes and pro casters.</p>
+        </div>
+    </div>
+    </section>
+
+    <!-- Services preview -->
+<section data-aos="fade-up" style="margin-top:44px">
+    <h2 style="font-family:'Orbitron',sans-serif;color:var(--red);margin-bottom:8px">Services Snapshot</h2>
+    <p style="color:var(--muted);max-width:760px;margin-bottom:18px">From coaching to stream setups — everything tailored for serious gamers.</p>
+
+    <div class="services-grid">
+        <div class="service-card" data-aos="flip-left">
+            <h3>Pro Coaching</h3>
+            <p>Personalized 1-on-1 coaching sessions with ranked coaches to push your rank higher.</p>
+        </div>
+        <div class="service-card" data-aos="flip-left" data-aos-delay="80">
+            <h3>Streaming Setup</h3>
+            <p>Complete stream optimization and overlay design for sharp professional streams.</p>
+        </div>
+        <div class="service-card" data-aos="flip-left" data-aos-delay="160">
+            <h3>Tournament Hosting</h3>
+            <p>We manage brackets, casters, and infrastructure for local and online tournaments.</p>
+        </div>
+    </div>
+
+    <div class="table-wrap" data-aos="fade-up" data-aos-delay="200">
+    <table class="services-table">
+        <thead>
+            <tr><th>Service</th><th>Details</th><th>Price</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>Pro Coaching</td><td>5 x 1-hour sessions + replay review</td><td><span class="price-badge">$120</span></td></tr>
+            <tr><td>Stream Setup</td><td>Custom overlay + alerts + bitrate tuning</td><td><span class="price-badge">$80</span></td></tr>
+            <tr><td>Tournament Pack</td><td>Brackets, streaming, prize management</td><td><span class="price-badge">$300</span></td></tr>
+        </tbody>
+        </table>
+    </div>
+    </section>
+
+    <!-- CTA -->
+    <section data-aos="zoom-in" style="margin-top:44px;text-align:center">
+    <div style="padding:22px;border-radius:12px;background:linear-gradient(180deg,rgba(255,31,45,0.02),rgba(0,0,0,0.2));border:1px solid rgba(255,31,45,0.04)">
+        <h3 style="font-family:'Orbitron',sans-serif;color:#fff">Ready to level up?</h3>
+        <p style="color:var(--muted);max-width:680px;margin:auto">Book a free consultation and we'll design the perfect plan for you.</p>
+        <div style="margin-top:12px"><a class="btn btn-primary" href="contact.html">Contact Us</a></div>
+    </div>
+    </section>
+
+    <footer>
+        © <span id="year"></span> Danyster0 — GoodGame — Built for gamers. All rights reserved.
+    </footer>
+
+</main>
+
+    <!-- AOS + scripts -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({duration:800, once:true, offset:60});
+    document.getElementById('year').innerText = new Date().getFullYear();
+</script>
+<script src="js/scritp.js"></script>
+</body>
+</html>
